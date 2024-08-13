@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="register.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Page</title>
+    <script src="register.js"></script>
+</head>
+<body>
+    <div class="text">Membership Registration</div>
+    <form>
+        <p class="user">Name :</p> 
+        <input type="text" name="" id="username" placeholder="Input Your Username">
+        <br>
+        <p class="pass">Password :</p>
+        <input type="password" name="" id="password" placeholder="Input Your Password">
+        <br>
+        <p class="ag">Age :</p>
+        <input type="number" name="" id="age" placeholder="Input Your Age">
+        <br>
+        <br>
+        <p class="gen">Gender :</p>
+        <input type="radio" name="gender" id="male"><p class="male">Male</p>
+        <input type="radio" name="gender" id="female"><p class="female">Female</p>
+        <br>
+        <p class="ema">E-mail :</p>
+        <input type="email" name="" id="email" placeholder="Input your Email">
+        
+        <div class="agree"><input type="checkbox" name="" id="agreement">I Agree to the terms & conditions</div>
+        <br>
+        <label id="error"></label>
+        <div class="regis"><button type="button" onclick="validate()">Register</button></a></div>
+        <div class="header">
+            <div class="box"></div>
+            <p class="hitoyz">HI-Toyz</p>
+            <div class="menu">
+              <div class="home"><a href="homepage.html" id="home">Home</a></div>
+              <div class="event"><a href="event.html" id="event">Event</a></div>
+              <div class="member"><a href="register.html" id="member">Membership</a></div>
+            </div>
+          </div>
+    </form>
+</body>
+</html>
