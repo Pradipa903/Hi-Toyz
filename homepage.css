@@ -1,0 +1,413 @@
+@font-face {
+    font-family: 'Acherus Feral';
+    src: url(acherus.otf);
+}
+
+/* @import url('https://fonts.cdnfonts.com/css/Hubballi'); */
+
+.background{
+    position: absolute;
+width: 100%;
+height: 591px;
+left: 0px;
+top: 0px;
+opacity: 80%;
+}
+
+.header{
+    width: 100%;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
+    position: fixed;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hitoyz{
+    position: absolute;
+    margin-top: 0%;
+width: 350px;
+height: 112px;
+left: 23px;
+color: #FD3636;
+/* background-color: green; */
+font-family: 'Acherus Feral';
+font-style: normal;
+font-weight: 700;
+font-size: 500%;
+line-height: 112px;
+}
+
+.tagline{
+    position: absolute;
+width: 100%;
+display: flex;
+text-align:center;
+justify-content: center;
+height: 140px;
+margin-top: 250px;
+/* background-color: green; */
+font-family: 'Acherus Feral';
+font-style: normal;
+font-weight: 700;
+font-size: 625%;
+line-height: 140px;
+/* identical to box height */
+/* background-color: green; */
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu{
+    position: absolute;
+    font-family: 'Acherus Feral';
+width: 574px;
+height: 48px;
+margin-left: 58.05%;
+margin-top: 32px;
+font-family: 'Acherus Feral';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 42px;
+justify-content: space-between;
+display: flex;
+color: black;
+/* background-color: green; */
+/* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.home{
+    color: #FD3636;
+}
+
+.new{
+    position: absolute;
+    width: 367px;
+    height: 84px;
+    left: 43.75%;
+    top: 500px;
+
+background-color: rgba(253, 54, 54, 0.74);
+border-radius: 10px;
+}
+
+.new:hover{
+    background-color: rgba(253, 54, 54, 1);
+}
+
+.text{
+    position: absolute;
+left: 3%;
+right: 19.89%;
+top: 21.43%;
+bottom: 21.43%;
+
+font-family: 'Hubballi';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #FFFFFF;
+}
+
+.arrow1{
+/* background-color: green; */
+position: absolute;
+position: absolute;
+left: 86.65%;
+right: 5.17%;
+top: 40%;
+bottom: 47.62%;
+}
+
+.about{
+    position: absolute;
+width: 1415px;
+height: 1181px;
+left: 8px;
+top: 627px;
+/* background-color: green; */
+}
+
+.ab{
+    position: absolute;
+width: 100%;
+height: 112px;
+/* background-color: green; */
+
+font-family: 'Acherus Feral';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 112px;
+/* identical to box height */
+
+
+color: #FD3636;
+
+/* border: 1px solid rgba(253, 54, 54, 0.62); */
+}
+
+.abt{
+    position: absolute;
+width: 1415px;
+height: 1072px;
+left: 8px;
+top: 112px;
+
+font-family: 'Hubballi';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 29px;
+text-align: justify;
+
+color: #000000;
+}
+
+.visit{
+    position: absolute;
+width: 419px;
+height: 84px;
+left: 69.86%;
+top: 500px;
+
+background: rgba(253, 54, 54, 0.74);
+border-radius: 10px;
+}
+
+.visit:hover{
+    background: rgba(253, 54, 54, 1);
+}
+
+.text2{
+    position: absolute;
+left: 3.34%;
+right: 16.23%;
+top: 20.69%;
+bottom: 24.14%;
+
+font-family: 'Hubballi';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 48px;
+text-align: justify;
+
+color: #FFFFFF;
+
+}
+
+.arrow2{
+    position: absolute;
+left: 88.78%;
+right: 4.05%;
+top: 40%;
+bottom: 48.28%;
+}
+
+.most{
+    position: absolute;
+    height: 669px;
+    width: 100%;
+    /* left: 563px; */
+    
+    top: 1602px;
+    text-align: center;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* background-color: green; */
+    display: flex;
+}
+
+.textmost{
+    position: absolute;
+width: 100%;
+height: 112px;
+
+font-family: 'Acherus Feral';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 112px;
+/* identical to box height */
+
+
+color: #FD3636;
+}
+
+.imge{
+    position: absolute;
+width: 78.19%;
+height: 389px;
+margin-top: 10%;
+display: flex;
+
+justify-content: space-between;
+/* background-color: red; */
+}
+
+.see{
+    position: absolute;
+    width: 21.04%;
+    height: 85px;
+    margin-top: 40%;
+    margin-left: -10%;
+    border-radius: 30px;   
+    background: rgba(253, 54, 54, 0.74);
+}
+
+.see:hover{
+    background-color: #FD3636;
+}
+.text3{
+    position: absolute;
+left: 3.63%;
+right: 22.11%;
+top: 21.18%;
+bottom: 22.35%;
+
+font-family: 'Hubballi';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #FFFFFF;
+}
+
+.arrow3{
+    position: absolute;
+left: 85.15%;
+right: 4.94%;
+top: 40%;
+bottom: 48.24%;
+}
+
+.collection{
+    position: absolute;
+width: 100%;
+height: 643.5px;
+left: 0%;
+top: 2635px;
+display: flex;
+text-align: center;
+justify-content: left;
+/* background-color: green; */
+}
+
+.textcol{
+    position: absolute;
+width: 440px;
+height: 112px;
+left: 35%;
+text-align: center;
+justify-content: center;
+/* top: 2635px; */
+
+font-family: 'Acherus Feral';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 112px;
+/* background-color: blue; */
+/* identical to box height */
+
+
+color: #FD3636;
+}
+.colect{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 112px;
+    background-color: red;
+    width: 100%;
+    height: 265.5px;
+}
+
+.colect2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 365.5px;
+    margin-left: -100%;
+    width: 0%;
+    height: 265.5px;
+    background-color: green;
+}
+
+.line{
+    position: absolute;
+width: 100%;
+height: 0px;
+left: 0px;
+margin-top: 3379px;
+
+border: 4px solid #FD3636;
+}
+
+.sosmed{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+width: 31.875%;
+height: 115px;
+left: 34.10%;
+margin-top: 3418px;
+/* background-color: black; */
+}
+
+.terms{
+    position: absolute;
+width: 550px;
+height: 42px;
+left: 31%;
+top: 3573px;
+
+font-family: 'Acherus Feral';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 42px;
+/* identical to box height */
+
+text-align: justify;
+
+color: rgba(0, 0, 0, 0.47);
+}
+
+#event{
+    text-decoration: none;
+    color: black;
+}
+
+#event:hover{
+    color: #FD3636;
+}
+
+#member{
+    text-decoration: none;
+    color: black;
+}
+
+#member:hover{
+    color: #FD3636;
+}
+
+@media only screen and (min-width: 768px) {
+.imge{width: 78.19%;}
+.see{width: 21.04%;}
+.collection{width: 100%;}
+.colect{width: 100%;}
+}
